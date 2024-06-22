@@ -1,0 +1,9 @@
+#compare two fractions june 21
+s=str.split(", ")
+a,b=map(int,s[0].split("/"))
+c,d=map(int,s[1].split("/"))
+if a/b>c/d:
+  print(s[0])
+if a/b<c/d:
+  print(s[1])
+print("equal")
